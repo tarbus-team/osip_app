@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:osip_app/infra/db/gtfs_database.dart';
+import 'package:osip_app/screens/splash_screen/splash_screen.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await initGtfsDatabase();
+  
   runApp(const AppCore());
 }
 
@@ -11,11 +16,7 @@ class AppCore extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Flutter Demo',
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World'),
-        ),
-      ),
+      home: SplashScreen(),
     );
   }
 }

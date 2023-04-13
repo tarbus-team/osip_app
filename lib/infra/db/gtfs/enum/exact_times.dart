@@ -1,0 +1,4 @@
+enum ExactTimes {
+  frequencyBased,
+  scheduleBased,
+}

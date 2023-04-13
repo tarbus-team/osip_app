@@ -1,0 +1,4 @@
+enum ServiceAvailability {
+  available,
+  notAvailable,
+}

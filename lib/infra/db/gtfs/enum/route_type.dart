@@ -1,0 +1,15 @@
+enum RouteType {
+  tram,
+  subway,
+  rail,
+  bus,
+  ferry,
+  cableCar,
+  aerialLift,
+  funicular,
+  unknown1,
+  unknown2,
+  unknown3,
+  trolleybus,
+  monorail,
+}

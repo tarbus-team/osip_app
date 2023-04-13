@@ -1,0 +1,4 @@
+enum Timepoint {
+  approximate,
+  exact,
+}

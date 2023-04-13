@@ -1,0 +1,4 @@
+enum DirectionId {
+  oneDirection,
+  twoDirection,
+}
